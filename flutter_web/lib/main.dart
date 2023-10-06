@@ -11,7 +11,7 @@ Future main() async {
 WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
   runApp(MaterialApp(
-    debugShowCheckedModeBanner: false,
+    debugShowCheckedModeBanner: true,
       home:  MyApp(),
   ));
 }
